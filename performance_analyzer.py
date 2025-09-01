@@ -15,7 +15,7 @@ from dataclasses import dataclass
 import matplotlib.pyplot as plt
 import numpy as np
 
-import ParallelismBruteForceCNFSolver as CNFSolver
+import parallelism_cnf_solver as CNFSolver
 import formulas_data
 
 

@@ -19,7 +19,7 @@ sns.set_palette("husl")
 class ChartGenerator:
     """Professional chart generator for CNF SAT performance analysis"""
 
-    def __init__(self, results_file: str = "performance_report.json"):
+    def __init__(self, results_file: str = "performance/performance_report.json"):
         """Initialize chart generator with performance data"""
         self.results_file = results_file
         self.data = self._load_data()

@@ -1,9 +1,8 @@
 """
-Enhanced Main Module for 3-CNF SAT Project
 Tests multiple algorithms and demonstrates improvements
 """
 
-import ParallelismBruteForceCNFSolver as CNFSolver
+import parallelism_cnf_solver as CNFSolver
 import devTools
 import formulas_data
 
@@ -93,16 +92,9 @@ def main():
     """Main function - entry point for the project"""
 
     print("3-CNF Satisfiability Algorithm Analysis Project")
-    print("=" * 60)
 
     # Demo basic algorithm comparison
-    demo_algorithm_comparison()
-
-    # Ask user if they want to run full analysis
-    print("\nWould you like to run comprehensive performance analysis? (y/n)")
-
-    # For automated testing, we'll run a limited version
-    print("Running limited performance analysis for demonstration...")
+    # demo_algorithm_comparison()
 
     try:
         # Test basic functionality
@@ -113,7 +105,7 @@ def main():
 
         print(f"\nTesting enhanced solver on formula: {formula}")
 
-        for algo in ["brute_force", "dpll"]:
+        for algo in ["brute_force", "dpll", "walksat"]:
             result = solver.solve(algo)
             print(
                 f"{algo.upper()}: Found solution = {result is not None}, "

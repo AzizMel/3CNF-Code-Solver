@@ -11,9 +11,10 @@ import json
 from typing import List, Dict, Optional, Any
 from mpi4py import MPI
 
-import ParallelismBruteForceCNFSolver as CNFSolver
+import parallelism_cnf_solver as CNFSolver
 import formulas_data
 
+# mpiexec -n 2 python mpi_sat_solver.py
 
 class MPICNFSolver:
     """MPI-based parallel CNF solver with multiple parallel strategies"""
@@ -259,11 +260,10 @@ class MPICNFSolver:
 
         strategies = [
             (
-                "search_space_partition",
-                self.parallel_brute_force_search_space_partition,
+                "brute_force",  self.parallel_brute_force_search_space_partition,
             ),
-            ("portfolio", self.parallel_dpll_portfolio),
-            ("work_stealing", self.parallel_dpll_work_stealing),
+            ("dpll_portfolio", self.parallel_dpll_portfolio),
+            ("dpll_work_stealing", self.parallel_dpll_work_stealing),
         ]
 
         results = {}
@@ -306,7 +306,7 @@ def run_mpi_benchmark():
     test_cases = [
         (0, formulas_data.solvable_formulas[0], ["x1", "x2", "x3"], True),
         (1, formulas_data.solvable_formulas[1], ["x1", "x2", "x3"], True),
-        (0, formulas_data.unsolvable_formulas[0], ["x1", "x2", "x3"], False),
+        (2, formulas_data.unsolvable_formulas[0], ["x1", "x2", "x3"], False),
     ]
 
     all_results = []
@@ -331,7 +331,7 @@ def run_mpi_benchmark():
 
     # Save results from rank 0
     if mpi_solver.rank == 0:
-        with open(f"mpi_benchmark_results_{mpi_solver.size}proc.json", "w") as f:
+        with open(f"mpi_benchmark_results_{mpi_solver.size}_proc.json", "w") as f:
             json.dump(all_results, f, indent=2)
 
         print("\n" + "=" * 80)
