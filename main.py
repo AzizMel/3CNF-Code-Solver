@@ -1,6 +1,7 @@
 import ParallelismBruteForceCNFSolver
 import devTools
 import formulas_data
+
 runtimes = []
 results = []
 
@@ -12,11 +13,12 @@ def run_parallelism_brute_force_cnf_solver(formula):
     return parallelism_brute_force_cnf_solver.is_solvable()
 
 
-for formula_id,unsolvable_formula in formulas_data.unsolvable_formulas.items():
-    result_time = devTools.run_function_with_timing(run_parallelism_brute_force_cnf_solver,unsolvable_formula)
+for formula_id, unsolvable_formula in formulas_data.unsolvable_formulas.items():
+    result_time = devTools.run_function_with_timing(run_parallelism_brute_force_cnf_solver, unsolvable_formula)
     results.append(result_time[0][0])
     runtimes.append(result_time[0][1])
+    if result_time[0][0] is not None:
+        print( f"{formula_id}  is none")
 
-print("runtimes =>",runtimes)
-print("results =>",results)
-
+print("runtimes =>", runtimes)
+print("results =>", results)
