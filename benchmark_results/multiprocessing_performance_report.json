@@ -1,0 +1,241 @@
+{
+  "summary": {
+    "total_tests": 15,
+    "algorithms_tested": [
+      "parallel_brute_force_2",
+      "parallel_brute_force_1",
+      "parallel_brute_force_4"
+    ],
+    "successful_tests": 15,
+    "failed_tests": 0
+  },
+  "algorithm_performance": {
+    "parallel_brute_force_2": {
+      "test_count": 5,
+      "avg_execution_time": 9.695900371298193e-06,
+      "median_execution_time": 1.0019997716881335e-05,
+      "std_execution_time": 2.209162344646013e-06,
+      "min_execution_time": 7.166992872953415e-06,
+      "max_execution_time": 1.2376505765132606e-05,
+      "avg_assignments_checked": 4,
+      "total_assignments_checked": 20
+    },
+    "parallel_brute_force_1": {
+      "test_count": 5,
+      "avg_execution_time": 2.2753002122044562e-05,
+      "median_execution_time": 1.7068989109247923e-05,
+      "std_execution_time": 1.1197711896892327e-05,
+      "min_execution_time": 1.4948018360882998e-05,
+      "max_execution_time": 4.135898780077696e-05,
+      "avg_assignments_checked": 8,
+      "total_assignments_checked": 40
+    },
+    "parallel_brute_force_4": {
+      "test_count": 5,
+      "avg_execution_time": 3.929850936401635e-06,
+      "median_execution_time": 3.920751623809338e-06,
+      "std_execution_time": 3.5860323938785654e-07,
+      "min_execution_time": 3.566507075447589e-06,
+      "max_execution_time": 4.437497409526259e-06,
+      "avg_assignments_checked": 2,
+      "total_assignments_checked": 10
+    }
+  },
+  "detailed_results": [
+    {
+      "algorithm": "parallel_brute_force_1",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 4.135898780077696e-05,
+      "assignments_checked": 8,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_2",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 1.2376505765132606e-05,
+      "assignments_checked": 4,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_4",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 4.437497409526259e-06,
+      "assignments_checked": 2,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_1",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 1.4948018360882998e-05,
+      "assignments_checked": 8,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_1",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 1.5241996152326465e-05,
+      "assignments_checked": 8,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_1",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 2.5147019186988473e-05,
+      "assignments_checked": 8,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_2",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 1.1149502824991941e-05,
+      "assignments_checked": 4,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_4",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 3.920751623809338e-06,
+      "assignments_checked": 2,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_2",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 7.166992872953415e-06,
+      "assignments_checked": 4,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_2",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 1.0019997716881335e-05,
+      "assignments_checked": 4,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_1",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 1.7068989109247923e-05,
+      "assignments_checked": 8,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_2",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 7.766502676531672e-06,
+      "assignments_checked": 4,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_4",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 3.566507075447589e-06,
+      "assignments_checked": 2,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_4",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 3.622000804170966e-06,
+      "assignments_checked": 2,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    },
+    {
+      "algorithm": "parallel_brute_force_4",
+      "formula_id": 0,
+      "formula_size": 3,
+      "variable_count": 3,
+      "is_satisfiable": true,
+      "solution_found": true,
+      "execution_time": 4.102497769054025e-06,
+      "assignments_checked": 2,
+      "memory_usage": 0,
+      "success": true,
+      "error_message": ""
+    }
+  ]
+}

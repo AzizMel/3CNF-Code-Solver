@@ -1,0 +1,35 @@
+3-CNF SATISFIABILITY ALGORITHM ANALYSIS
+COMPREHENSIVE BENCHMARK RESULTS
+============================================================
+
+Benchmark completed at: Mon Sep  1 20:10:40 2025
+System info: 4 CPU cores available
+
+SEQUENTIAL ALGORITHM PERFORMANCE:
+----------------------------------------
+BRUTE_FORCE:
+  Average execution time: 0.000038s
+  Average assignments checked: 2
+  Test count: 55
+
+WALKSAT:
+  Average execution time: 0.024575s
+  Average assignments checked: 910
+  Test count: 55
+
+DPLL:
+  Average execution time: 0.000089s
+  Average assignments checked: 4
+  Test count: 55
+
+PARALLEL PERFORMANCE SUMMARY:
+----------------------------------------
+Multiprocessing:
+  Maximum speedup: 22.74x
+  Maximum efficiency: 5.68
+  Average efficiency: 4.74
+
+MPI:
+  Maximum speedup: 0.18x
+  Maximum efficiency: 0.18
+  Average efficiency: 0.09
