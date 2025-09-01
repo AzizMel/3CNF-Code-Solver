@@ -367,4 +367,3 @@ Email: [your.email@university.edu]
 ---
 
 _This paper presents original research conducted as part of the Algorithm Design course final project, focusing on practical and theoretical aspects of parallel Boolean satisfiability solving._
-

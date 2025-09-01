@@ -311,4 +311,3 @@ The continued growth in computational demand and the availability of increasingl
 ---
 
 _This literature review was compiled as part of the 3-CNF Satisfiability Algorithm Analysis Project, serving as the foundation for Step 3 of our comprehensive analysis._
-
