@@ -8,6 +8,5 @@ class BruteForceSolver(CNFSolverInterface):
         for values in itertools.product([False, True], repeat=len(self.variables)):
             assignment = dict(zip(self.variables, values))
             if self.evaluate_formula(assignment):
-                print("BruteForceSolver assignment=>", assignment)
                 return assignment
         return None

@@ -7,8 +7,6 @@ class DPLLSolver(CNFSolverInterface):
         """DPLL (Davis-Putnam-Logemann-Loveland) algorithm - much more efficient"""
 
         def dpll_recursive(formula: List[List[str]], assignment: Dict[str, bool]) -> Optional[Dict[str, bool]]:
-
-            # Remove satisfied clauses and unsatisfied literals
             simplified_formula = []
             for clause in formula:
                 new_clause = []
