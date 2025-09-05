@@ -1,0 +1,86 @@
+[
+  {
+    "brute_force": {
+      "solution_found": true,
+      "execution_time": 0.0011167526245117188,
+      "solution": {
+        "x1": false,
+        "x2": false,
+        "x3": true
+      }
+    },
+    "dpll_portfolio": {
+      "solution_found": true,
+      "execution_time": 0.0002033710479736328,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false
+      }
+    },
+    "dpll_work_stealing": {
+      "solution_found": true,
+      "execution_time": 0.0001804828643798828,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false
+      }
+    },
+    "formula_id": 0,
+    "is_solvable": true,
+    "processes": 1
+  },
+  {
+    "brute_force": {
+      "solution_found": true,
+      "execution_time": 8.726119995117188e-05,
+      "solution": {
+        "x1": false,
+        "x2": false,
+        "x3": true
+      }
+    },
+    "dpll_portfolio": {
+      "solution_found": true,
+      "execution_time": 9.489059448242188e-05,
+      "solution": {
+        "x1": true,
+        "x3": true,
+        "x2": false
+      }
+    },
+    "dpll_work_stealing": {
+      "solution_found": true,
+      "execution_time": 9.274482727050781e-05,
+      "solution": {
+        "x1": true,
+        "x3": true,
+        "x2": false
+      }
+    },
+    "formula_id": 1,
+    "is_solvable": true,
+    "processes": 1
+  },
+  {
+    "brute_force": {
+      "solution_found": false,
+      "execution_time": 0.00013136863708496094,
+      "solution": null
+    },
+    "dpll_portfolio": {
+      "solution_found": false,
+      "execution_time": 0.0001709461212158203,
+      "solution": null
+    },
+    "dpll_work_stealing": {
+      "solution_found": false,
+      "execution_time": 0.00016617774963378906,
+      "solution": null
+    },
+    "formula_id": 2,
+    "is_solvable": false,
+    "processes": 1
+  }
+]

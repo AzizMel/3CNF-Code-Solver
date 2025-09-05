@@ -1,0 +1,86 @@
+[
+  {
+    "search_space_partition": {
+      "solution_found": true,
+      "execution_time": 0.00017523765563964844,
+      "solution": {
+        "x1": false,
+        "x2": false,
+        "x3": true
+      }
+    },
+    "portfolio": {
+      "solution_found": true,
+      "execution_time": 0.00011396408081054688,
+      "solution": {
+        "x3": true,
+        "x1": false,
+        "x2": false
+      }
+    },
+    "work_stealing": {
+      "solution_found": true,
+      "execution_time": 0.0001246929168701172,
+      "solution": {
+        "x3": true,
+        "x1": false,
+        "x2": false
+      }
+    },
+    "formula_id": 0,
+    "is_solvable": true,
+    "processes": 1
+  },
+  {
+    "search_space_partition": {
+      "solution_found": true,
+      "execution_time": 9.417533874511719e-05,
+      "solution": {
+        "x1": false,
+        "x2": false,
+        "x3": true
+      }
+    },
+    "portfolio": {
+      "solution_found": true,
+      "execution_time": 9.012222290039062e-05,
+      "solution": {
+        "x3": true,
+        "x1": true,
+        "x2": false
+      }
+    },
+    "work_stealing": {
+      "solution_found": true,
+      "execution_time": 8.893013000488281e-05,
+      "solution": {
+        "x3": true,
+        "x1": true,
+        "x2": false
+      }
+    },
+    "formula_id": 1,
+    "is_solvable": true,
+    "processes": 1
+  },
+  {
+    "search_space_partition": {
+      "solution_found": false,
+      "execution_time": 0.00013303756713867188,
+      "solution": null
+    },
+    "portfolio": {
+      "solution_found": false,
+      "execution_time": 0.00015044212341308594,
+      "solution": null
+    },
+    "work_stealing": {
+      "solution_found": false,
+      "execution_time": 0.00014591217041015625,
+      "solution": null
+    },
+    "formula_id": 2,
+    "is_solvable": false,
+    "processes": 1
+  }
+]
