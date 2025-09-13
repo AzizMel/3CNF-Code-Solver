@@ -1,0 +1,2648 @@
+{
+    "0": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 5.555152893066406e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": false,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 2.7179718017578125e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.09808349609375e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "1": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 6.031990051269531e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.8835067749023438e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.33514404296875e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "2": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.3855438232421875e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.2874603271484375e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.765655517578125e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "3": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 2.8133392333984375e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.0251998901367188e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.3828277587890625e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "4": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.647804260253906e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": false,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.2159347534179688e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 5.507469177246094e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "5": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.76837158203125e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.5974044799804688e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.2159347534179688e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "6": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.506111145019531e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.430511474609375e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.1205673217773438e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "7": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.57763671875e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 8.821487426757812e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.239776611328125e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "8": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.457069396972656e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": false,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.0013580322265625e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.1682510375976562e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "9": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.9591064453125e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 8.821487426757812e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.0251998901367188e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "10": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.266334533691406e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.3828277587890625e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.3365020751953125e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "11": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.743171691894531e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.3113021850585938e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.811981201171875e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "12": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.172325134277344e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.0728836059570312e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 4.291534423828125e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "13": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.7642974853515625e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.71661376953125e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 4.172325134277344e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "14": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.6450881958007812e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.430511474609375e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 5.9604644775390625e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "15": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.9788742065429688e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.76837158203125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.8596649169921875e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "16": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.4781951904296875e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 8.344650268554688e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.71661376953125e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "17": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 2.0265579223632812e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 5.0067901611328125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.1205673217773438e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "18": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 2.2172927856445312e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 6.4373016357421875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "19": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.9073486328125e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 4.291534423828125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "20": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.3828277587890625e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.291534423828125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.7881393432617188e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "21": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.71661376953125e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 6.9141387939453125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.049041748046875e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "22": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.3828277587890625e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "23": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.4066696166992188e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.3589859008789062e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.0251998901367188e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "24": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.430511474609375e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 5.245208740234375e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "25": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.8835067749023438e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 4.76837158203125e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "26": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.8835067749023438e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.291534423828125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 5.0067901611328125e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "27": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.3113021850585938e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "28": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.5020370483398438e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": false,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 6.4373016357421875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.6689300537109375e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "29": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.3589859008789062e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 7.152557373046875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 5.245208740234375e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "30": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.4066696166992188e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": false,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.0531158447265625e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.0251998901367188e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "31": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.9311904907226562e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 3.5762786865234375e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.8835067749023438e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "32": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.1484832763671875e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 2.4080276489257812e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.5510787963867188e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "33": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.0994415283203125e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.1444091796875e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 3.170967102050781e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "34": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.24249267578125e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 8.58306884765625e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.7642974853515625e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "35": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.1484832763671875e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.9311904907226562e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.811981201171875e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "36": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 2.6226043701171875e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.1682510375976562e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.0728836059570312e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "37": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 2.8848648071289062e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 8.106231689453125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.6689300537109375e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": true
+            }
+        }
+    },
+    "38": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 2.1457672119140625e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.239776611328125e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.9087066650390625e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "39": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.0040740966796875e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 7.152557373046875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 8.106231689453125e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "40": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 4.267692565917969e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.1444091796875e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 8.58306884765625e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "41": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.910064697265625e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 7.62939453125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.8848648071289062e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "42": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.600120544433594e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 9.298324584960938e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.2411346435546875e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "43": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.886222839355469e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.5735626220703125e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.1444091796875e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "44": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.147125244140625e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 9.775161743164062e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.0742416381835938e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "45": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 3.790855407714844e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x1": true,
+                "x3": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 1.5974044799804688e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.3603439331054688e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "46": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.5974044799804688e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 6.198883056640625e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 2.1219253540039062e-05,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": true,
+                "x3": false
+            }
+        }
+    },
+    "47": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 2.1219253540039062e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": false
+            }
+        },
+        "brute_force_solver": {
+            "time": 5.245208740234375e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 5.0067901611328125e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "48": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.9311904907226562e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.5299530029296875e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 5.245208740234375e-06,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": false
+            }
+        }
+    },
+    "49": {
+        "formula_to_solve": [
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 3,
+        "dpll_solver": {
+            "time": 1.4066696166992188e-05,
+            "solved": true,
+            "solution": {
+                "x2": true,
+                "x3": true,
+                "x1": true
+            }
+        },
+        "brute_force_solver": {
+            "time": 4.291534423828125e-06,
+            "solved": true,
+            "solution": {
+                "x1": false,
+                "x2": false,
+                "x3": false
+            }
+        },
+        "walk_sat_solver": {
+            "time": 1.8835067749023438e-05,
+            "solved": true,
+            "solution": {
+                "x1": true,
+                "x2": false,
+                "x3": true
+            }
+        }
+    },
+    "50": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 8,
+        "dpll_solver": {
+            "time": 0.0001232624053955078,
+            "solved": false,
+            "solution": null
+        },
+        "brute_force_solver": {
+            "time": 3.2901763916015625e-05,
+            "solved": false,
+            "solution": null
+        },
+        "walk_sat_solver": {
+            "time": 0.1764669418334961,
+            "solved": false,
+            "solution": null
+        }
+    },
+    "51": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 8,
+        "dpll_solver": {
+            "time": 0.00016498565673828125,
+            "solved": false,
+            "solution": null
+        },
+        "brute_force_solver": {
+            "time": 3.600120544433594e-05,
+            "solved": false,
+            "solution": null
+        },
+        "walk_sat_solver": {
+            "time": 0.17589688301086426,
+            "solved": false,
+            "solution": null
+        }
+    },
+    "52": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 8,
+        "dpll_solver": {
+            "time": 8.821487426757812e-05,
+            "solved": false,
+            "solution": null
+        },
+        "brute_force_solver": {
+            "time": 7.295608520507812e-05,
+            "solved": false,
+            "solution": null
+        },
+        "walk_sat_solver": {
+            "time": 0.2650935649871826,
+            "solved": false,
+            "solution": null
+        }
+    },
+    "53": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 8,
+        "dpll_solver": {
+            "time": 0.000110626220703125,
+            "solved": false,
+            "solution": null
+        },
+        "brute_force_solver": {
+            "time": 3.5762786865234375e-05,
+            "solved": false,
+            "solution": null
+        },
+        "walk_sat_solver": {
+            "time": 0.16618704795837402,
+            "solved": false,
+            "solution": null
+        }
+    },
+    "54": {
+        "formula_to_solve": [
+            [
+                "x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "x1",
+                "-x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "x2",
+                "-x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "x3"
+            ],
+            [
+                "-x1",
+                "-x2",
+                "-x3"
+            ]
+        ],
+        "len_formula": 8,
+        "dpll_solver": {
+            "time": 0.0001666545867919922,
+            "solved": false,
+            "solution": null
+        },
+        "brute_force_solver": {
+            "time": 3.504753112792969e-05,
+            "solved": false,
+            "solution": null
+        },
+        "walk_sat_solver": {
+            "time": 0.1515674591064453,
+            "solved": false,
+            "solution": null
+        }
+    }
+}
