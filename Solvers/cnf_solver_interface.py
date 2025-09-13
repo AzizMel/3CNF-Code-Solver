@@ -2,11 +2,10 @@ from typing import List, Dict
 
 
 class CNFSolverInterface:
-    variables = []
+    variables = ['x1', 'x2', 'x3']
     formula = []
 
-    def __init__(self, variables, formula):
-        self.variables = variables
+    def __init__(self,  formula):
         self.formula = formula
 
     def solve(self):
