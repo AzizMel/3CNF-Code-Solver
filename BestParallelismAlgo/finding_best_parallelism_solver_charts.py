@@ -1,11 +1,14 @@
 import json
+import os
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import pandas as pd
 
 # Load results
-with open("solver_results.json", "r") as f:
+output_dir = os.path.join(os.path.dirname(__file__), "../Results")
+output_file = os.path.join(output_dir, "solver_results.json")
+with open(output_file, "r") as f:
     results = json.load(f)
 
 formulas = list(results.keys())
@@ -285,7 +288,7 @@ def plot_success_rate():
     failure_rate = [1 - rate for rate in success_rate]
 
     # Create subplots for success and failure rates
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 9),)
 
     # Success rate donut chart
     wedges, texts, autotexts = ax1.pie(
@@ -301,7 +304,7 @@ def plot_success_rate():
     # Create donut by adding a white circle in the center
     centre_circle = plt.Circle((0, 0), 0.70, fc="white")
     ax1.add_artist(centre_circle)
-    ax1.set_title("Success Rate of Solvers", fontsize=16, fontweight="bold", pad=20)
+    ax1.set_title("Success Rate of Solvers", fontsize=16, fontweight="bold", pad=10)
 
     # Add percentage text in the center
     ax1.text(
@@ -328,7 +331,7 @@ def plot_success_rate():
     # Create donut by adding a white circle in the center
     centre_circle2 = plt.Circle((0, 0), 0.70, fc="white")
     ax2.add_artist(centre_circle2)
-    ax2.set_title("Failure Rate of Solvers", fontsize=16, fontweight="bold", pad=20)
+    ax2.set_title("Failure Rate of Solvers", fontsize=16, fontweight="bold", pad=10)
 
     # Add percentage text in the center
     ax2.text(
