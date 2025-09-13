@@ -74,11 +74,6 @@ mpiexec -n 2 python run_mpi_brute_force.py
 mpiexec -n 4 python run_mpi_brute_force.py
 ```
 
-### Comprehensive Benchmark
-
-```bash
-python benchmark_mpi_brute_force.py
-```
 
 ## Troubleshooting
 
@@ -129,5 +124,3 @@ python benchmark_mpi_brute_force.py
 ## Files Created
 
 - `mpi_brute_force_results_<N>proc.json` - Results from MPI runs
-- `comprehensive_mpi_benchmark_results.json` - Comprehensive benchmark results
-- `mpi_brute_force_benchmark_<N>proc_size<M>.json` - Individual benchmark results

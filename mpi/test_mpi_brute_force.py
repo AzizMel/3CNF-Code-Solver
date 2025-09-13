@@ -164,7 +164,6 @@ def main():
     print("\nTo run with actual MPI:")
     print("1. Install mpi4py: pip install mpi4py")
     print("2. Run: mpiexec -n 2 python run_mpi_brute_force.py")
-    print("3. Or run: python benchmark_mpi_brute_force.py")
 
 
 if __name__ == "__main__":
