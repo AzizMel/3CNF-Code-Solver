@@ -1,6 +1,7 @@
 import json
 import devTools
 import formulas_data
+import finding_best_parallelism_solver_charts
 from Solvers.dpll_solver import DPLLSolver
 from Solvers.walk_sat_solver import WalkSatSolver
 from Solvers.brute_force_solver import BruteForceSolver
@@ -41,3 +42,11 @@ for index in formulas_data.formulas:
 # Save results to a JSON file
 with open("solver_results.json", "w") as f:
     json.dump(results, f, indent=4)
+
+
+finding_best_parallelism_solver_charts.plot_execution_times()
+# finding_best_parallelism_solver_charts.plot_time_vs_size()
+# finding_best_parallelism_solver_charts.plot_success_failure()
+# finding_best_parallelism_solver_charts.plot_success_rate()
+# finding_best_parallelism_solver_charts.plot_time_vs_solved()
+
