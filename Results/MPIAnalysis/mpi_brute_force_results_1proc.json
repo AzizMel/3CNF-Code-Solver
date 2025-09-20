@@ -20,15 +20,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0001704692840576172,
+      "time": 0.0001838207244873047,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -53,15 +53,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011682510375976562,
+      "time": 0.00011587142944335938,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -86,15 +86,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011801719665527344,
+      "time": 9.894371032714844e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -119,15 +119,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0005812644958496094,
+      "time": 7.486343383789062e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -152,15 +152,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00044608116149902344,
+      "time": 6.556510925292969e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -185,15 +185,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00033164024353027344,
+      "time": 7.05718994140625e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -218,15 +218,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0006871223449707031,
+      "time": 8.273124694824219e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -251,15 +251,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010371208190917969,
+      "time": 7.319450378417969e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -284,15 +284,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0005586147308349609,
+      "time": 6.389617919921875e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -317,15 +317,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0008311271667480469,
+      "time": 7.843971252441406e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -350,15 +350,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003409385681152344,
+      "time": 0.00010752677917480469,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -383,15 +383,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00017547607421875,
+      "time": 9.608268737792969e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -416,15 +416,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010251998901367188,
+      "time": 8.058547973632812e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -449,15 +449,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00036907196044921875,
+      "time": 8.916854858398438e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -482,15 +482,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0015261173248291016,
+      "time": 8.034706115722656e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -515,15 +515,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00030493736267089844,
+      "time": 9.059906005859375e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -548,15 +548,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00020456314086914062,
+      "time": 8.463859558105469e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -581,15 +581,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003268718719482422,
+      "time": 7.009506225585938e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -614,15 +614,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00020170211791992188,
+      "time": 7.939338684082031e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -647,15 +647,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00019621849060058594,
+      "time": 9.083747863769531e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -680,15 +680,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00025463104248046875,
+      "time": 6.508827209472656e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -713,15 +713,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011658668518066406,
+      "time": 6.508827209472656e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -746,15 +746,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003616809844970703,
+      "time": 6.222724914550781e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -779,15 +779,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00013637542724609375,
+      "time": 6.651878356933594e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -812,15 +812,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 9.822845458984375e-05,
+      "time": 7.987022399902344e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -845,15 +845,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010800361633300781,
+      "time": 7.748603820800781e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -878,15 +878,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010418891906738281,
+      "time": 8.0108642578125e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -911,15 +911,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003237724304199219,
+      "time": 9.751319885253906e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -944,15 +944,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010776519775390625,
+      "time": 9.393692016601562e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -977,15 +977,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010633468627929688,
+      "time": 7.677078247070312e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1010,15 +1010,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0005624294281005859,
+      "time": 7.295608520507812e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1043,15 +1043,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0004298686981201172,
+      "time": 6.747245788574219e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1076,15 +1076,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002491474151611328,
+      "time": 0.00012946128845214844,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1109,15 +1109,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00023436546325683594,
+      "time": 7.414817810058594e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1142,15 +1142,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00017189979553222656,
+      "time": 7.653236389160156e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1175,15 +1175,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00021386146545410156,
+      "time": 8.463859558105469e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1208,15 +1208,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002033710479736328,
+      "time": 7.152557373046875e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1241,15 +1241,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00016260147094726562,
+      "time": 8.273124694824219e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1274,15 +1274,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0006034374237060547,
+      "time": 8.034706115722656e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1307,15 +1307,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00022912025451660156,
+      "time": 0.00010466575622558594,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1340,15 +1340,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0001761913299560547,
+      "time": 9.250640869140625e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1373,15 +1373,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.000179290771484375,
+      "time": 0.00010466575622558594,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1406,15 +1406,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0001857280731201172,
+      "time": 8.320808410644531e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1439,15 +1439,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011110305786132812,
+      "time": 8.797645568847656e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1472,15 +1472,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002760887145996094,
+      "time": 8.082389831542969e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1505,15 +1505,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00021314620971679688,
+      "time": 8.821487426757812e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": true
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1538,15 +1538,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00028395652770996094,
+      "time": 8.797645568847656e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1571,15 +1571,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002067089080810547,
+      "time": 0.0001399517059326172,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1604,15 +1604,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003497600555419922,
+      "time": 7.963180541992188e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 2,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1637,15 +1637,15 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00022149085998535156,
+      "time": 8.606910705566406e-05,
       "solved": true,
       "solution": {
         "x1": false,
         "x2": false,
         "x3": false
       },
-      "assignments_checked": 3,
-      "processes": 2,
+      "assignments_checked": 1,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1695,11 +1695,11 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00010561943054199219,
+      "time": 0.000156402587890625,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
-      "processes": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1749,11 +1749,11 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00011777877807617188,
+      "time": 0.00012373924255371094,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
-      "processes": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1803,11 +1803,11 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00010824203491210938,
+      "time": 0.00011897087097167969,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
-      "processes": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1857,11 +1857,11 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00011587142944335938,
+      "time": 0.0001232624053955078,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
-      "processes": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   },
@@ -1911,11 +1911,11 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 9.72747802734375e-05,
+      "time": 0.0001323223114013672,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
-      "processes": 2,
+      "processes": 1,
       "total_assignments": 8
     }
   }
