@@ -164,7 +164,7 @@ class MPIBruteForceSolver:
                 "formula_to_solve": formula,
                 "len_formula": len(formula),
                 "mpi_brute_force_solver": {
-                    "time": execution_time,
+                    "time": execution_time,  # Python will automatically use scientific notation for small numbers
                     "solved": solution is not None,
                     "solution": solution,
                     "assignments_checked": assignments_checked,

@@ -153,7 +153,7 @@ def generate_comprehensive_report(all_results: List[Dict[str, Any]]) -> Dict[str
             for formula_id, formula_data in formula_results.items():
                 if formula_id in comprehensive_report["formula_results"]:
                     comprehensive_report["formula_results"][formula_id]["mpi_results"][str(processes)] = {
-                        "time": formula_data["mpi_brute_force_solver"]["time"],
+                        "time": formula_data["mpi_brute_force_solver"]["time"],  # Python will use scientific notation automatically
                         "solved": formula_data["mpi_brute_force_solver"]["solved"],
                         "solution": formula_data["mpi_brute_force_solver"]["solution"],
                         "assignments_checked": formula_data["mpi_brute_force_solver"]["assignments_checked"],
