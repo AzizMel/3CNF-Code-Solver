@@ -1,0 +1,2312 @@
+{
+  "timestamp": 1758396418.2277737,
+  "processes": 3,
+  "runtime_seconds": 0.004713773727416992,
+  "results": {
+    "0": {
+      "formula_id": 0,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "1": {
+      "formula_id": 1,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "2": {
+      "formula_id": 2,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "3": {
+      "formula_id": 3,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "4": {
+      "formula_id": 4,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "5": {
+      "formula_id": 5,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "6": {
+      "formula_id": 6,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "7": {
+      "formula_id": 7,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "8": {
+      "formula_id": 8,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "9": {
+      "formula_id": 9,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "10": {
+      "formula_id": 10,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "11": {
+      "formula_id": 11,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "12": {
+      "formula_id": 12,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "13": {
+      "formula_id": 13,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "14": {
+      "formula_id": 14,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "15": {
+      "formula_id": 15,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "16": {
+      "formula_id": 16,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "17": {
+      "formula_id": 17,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "18": {
+      "formula_id": 18,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "19": {
+      "formula_id": 19,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "20": {
+      "formula_id": 20,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "21": {
+      "formula_id": 21,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "22": {
+      "formula_id": 22,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "23": {
+      "formula_id": 23,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "24": {
+      "formula_id": 24,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "25": {
+      "formula_id": 25,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "26": {
+      "formula_id": 26,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "27": {
+      "formula_id": 27,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "28": {
+      "formula_id": 28,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "29": {
+      "formula_id": 29,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "30": {
+      "formula_id": 30,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "31": {
+      "formula_id": 31,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "32": {
+      "formula_id": 32,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "33": {
+      "formula_id": 33,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "34": {
+      "formula_id": 34,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "35": {
+      "formula_id": 35,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "36": {
+      "formula_id": 36,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "37": {
+      "formula_id": 37,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "38": {
+      "formula_id": 38,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "39": {
+      "formula_id": 39,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "40": {
+      "formula_id": 40,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "41": {
+      "formula_id": 41,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "42": {
+      "formula_id": 42,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "43": {
+      "formula_id": 43,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "44": {
+      "formula_id": 44,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "45": {
+      "formula_id": 45,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "46": {
+      "formula_id": 46,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "47": {
+      "formula_id": 47,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "48": {
+      "formula_id": 48,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "49": {
+      "formula_id": 49,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "50": {
+      "formula_id": 50,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": false,
+        "solution": null,
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "51": {
+      "formula_id": 51,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": false,
+        "solution": null,
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "52": {
+      "formula_id": 52,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": false,
+        "solution": null,
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "53": {
+      "formula_id": 53,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": false,
+        "solution": null,
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    },
+    "54": {
+      "formula_id": 54,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bitmask_solver": {
+        "solved": false,
+        "solution": null,
+        "assignments_total": 8,
+        "per_rank_partition_sizes": [
+          3,
+          3,
+          2
+        ],
+        "processes": 3
+      }
+    }
+  }
+}

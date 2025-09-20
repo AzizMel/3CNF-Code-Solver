@@ -1,0 +1,2037 @@
+{
+  "timestamp": 1758398514.5276656,
+  "processes": 12,
+  "runtime_seconds": 0.00816488265991211,
+  "results": {
+    "0": {
+      "formula_id": 0,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "1": {
+      "formula_id": 1,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "2": {
+      "formula_id": 2,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "3": {
+      "formula_id": 3,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "4": {
+      "formula_id": 4,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "5": {
+      "formula_id": 5,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "6": {
+      "formula_id": 6,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "7": {
+      "formula_id": 7,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "8": {
+      "formula_id": 8,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "9": {
+      "formula_id": 9,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "10": {
+      "formula_id": 10,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "11": {
+      "formula_id": 11,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "12": {
+      "formula_id": 12,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "13": {
+      "formula_id": 13,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "14": {
+      "formula_id": 14,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "15": {
+      "formula_id": 15,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "16": {
+      "formula_id": 16,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "17": {
+      "formula_id": 17,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "18": {
+      "formula_id": 18,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "19": {
+      "formula_id": 19,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "20": {
+      "formula_id": 20,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "21": {
+      "formula_id": 21,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "22": {
+      "formula_id": 22,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "23": {
+      "formula_id": 23,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "24": {
+      "formula_id": 24,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "25": {
+      "formula_id": 25,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "26": {
+      "formula_id": 26,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "27": {
+      "formula_id": 27,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "28": {
+      "formula_id": 28,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "29": {
+      "formula_id": 29,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "30": {
+      "formula_id": 30,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "31": {
+      "formula_id": 31,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "32": {
+      "formula_id": 32,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "33": {
+      "formula_id": 33,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "34": {
+      "formula_id": 34,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "35": {
+      "formula_id": 35,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "36": {
+      "formula_id": 36,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "37": {
+      "formula_id": 37,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "38": {
+      "formula_id": 38,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "39": {
+      "formula_id": 39,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "40": {
+      "formula_id": 40,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "41": {
+      "formula_id": 41,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "42": {
+      "formula_id": 42,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "43": {
+      "formula_id": 43,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "44": {
+      "formula_id": 44,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "45": {
+      "formula_id": 45,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": true
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "46": {
+      "formula_id": 46,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "47": {
+      "formula_id": 47,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "48": {
+      "formula_id": 48,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "49": {
+      "formula_id": 49,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": true,
+        "solution": {
+          "x1": false,
+          "x2": false,
+          "x3": false
+        },
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "50": {
+      "formula_id": 50,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": false,
+        "solution": null,
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "51": {
+      "formula_id": 51,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": false,
+        "solution": null,
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "52": {
+      "formula_id": 52,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": false,
+        "solution": null,
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "53": {
+      "formula_id": 53,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": false,
+        "solution": null,
+        "total_assignments": 8,
+        "processes": 12
+      }
+    },
+    "54": {
+      "formula_id": 54,
+      "variables": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "formula": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "mpi_bruteforce": {
+        "solved": false,
+        "solution": null,
+        "total_assignments": 8,
+        "processes": 12
+      }
+    }
+  }
+}
