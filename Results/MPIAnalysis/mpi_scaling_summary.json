@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "timestamp": "2025-09-20T21:38:27.124801",
+    "total_processes_tested": 3,
+    "successful_runs": 0,
+    "failed_runs": 3,
+    "total_formulas": 55
+  },
+  "performance_summary": {},
+  "scaling_summary": {
+    "process_counts": [],
+    "success_rates": {},
+    "solved_formulas_per_process": {}
+  }
+}

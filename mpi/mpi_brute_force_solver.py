@@ -11,10 +11,35 @@ import formulas_data
 # Add the parent directory to the Python path to find the Solvers module
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
+
+# Change to parent directory to ensure correct imports
+os.chdir(parent_dir)
+sys.path.insert(0, current_dir)
 sys.path.insert(0, parent_dir)
 
-# Import the brute force solver
-from Solvers.brute_force_solver import BruteForceSolver
+# Import the brute force solver with comprehensive error handling
+try:
+    from Solvers.brute_force_solver import BruteForceSolver
+except ImportError as e:
+    print(f"Error importing BruteForceSolver: {e}")
+    print(f"Current file: {__file__}")
+    print(f"Current directory: {current_dir}")
+    print(f"Parent directory: {parent_dir}")
+    print(f"Working directory: {os.getcwd()}")
+    print(f"Python path: {sys.path[:5]}")
+    
+    # Try alternative import methods
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("brute_force_solver", 
+                                                     os.path.join(parent_dir, "Solvers", "brute_force_solver.py"))
+        brute_force_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(brute_force_module)
+        BruteForceSolver = brute_force_module.BruteForceSolver
+        print("✓ Import successful using direct file loading")
+    except Exception as e2:
+        print(f"Alternative import also failed: {e2}")
+        sys.exit(1)
 
 
 class MPIBruteForceSolver:
@@ -40,63 +65,65 @@ class MPIBruteForceSolver:
         self, formula: List[List[str]], variables: List[str]
     ) -> Optional[Dict[str, bool]]:
         """
-        Parallel brute force with search space partitioning
-        Each process searches a subset of the assignment space
+        Optimized parallel brute force with efficient search space partitioning
+        Each process generates only its assigned assignments on-demand
         """
         self.start_time = time.time()
 
         # Calculate total search space
         self.total_assignments = 2 ** len(variables)
+        
+        # Calculate assignment ranges for each process
         assignments_per_process = self.total_assignments // self.size
         remainder = self.total_assignments % self.size
 
-        # Calculate assignment range for this process
-        start_idx = self.rank * assignments_per_process
+        # Calculate start and end indices for this process
         if self.rank < remainder:
-            start_idx += self.rank
+            start_idx = self.rank * (assignments_per_process + 1)
+            end_idx = start_idx + assignments_per_process + 1
         else:
-            start_idx += remainder
-
-        end_idx = start_idx + assignments_per_process
+            start_idx = self.rank * assignments_per_process + remainder
+            end_idx = start_idx + assignments_per_process
 
         if self.rank == 0:
-            self.log(f"Starting parallel brute force with {self.size} processes")
+            self.log(f"Starting optimized parallel brute force with {self.size} processes")
             self.log(f"Total assignments: {self.total_assignments}")
             self.log(f"Assignments per process: ~{assignments_per_process}")
+            # Verify assignment distribution
+            self._verify_assignment_distribution(self.total_assignments, self.size)
 
-        self.log(f"Searching assignments {start_idx} to {end_idx-1}")
+        self.log(f"[Rank {self.rank}] Processing assignments {start_idx} to {end_idx-1} ({end_idx-start_idx} assignments)")
 
         # Create local solver
         solver = BruteForceSolver(formula=formula)
         solver.variables = variables
 
-        # Generate all possible assignments
-        all_assignments = list(itertools.product([False, True], repeat=len(variables)))
-
         local_solution = None
         self.local_assignments_checked = 0
-
-        # Search in our assigned range
-        for i in range(start_idx, min(end_idx, len(all_assignments))):
+        
+        # Process only the assigned range of assignments
+        for assignment_num in range(start_idx, end_idx):
             self.local_assignments_checked += 1
-            assignment = dict(zip(variables, all_assignments[i]))
+            
+            # Generate assignment on-demand instead of pre-generating all
+            assignment = self._generate_assignment_by_number(assignment_num, variables)
 
             if solver.evaluate_formula(assignment):
                 local_solution = assignment
-                self.log(f"Solution found: {assignment}")
+                self.log(f"[Rank {self.rank}] Solution found: {assignment}")
+                # Broadcast solution to all processes for early termination
+                self._broadcast_solution(local_solution)
                 break
 
-            # Periodic progress reporting
-            if self.local_assignments_checked % 10000 == 0:
-                self.log(f"Checked {self.local_assignments_checked} assignments...")
-
-            # Check for early termination signal from other processes
-            if self.local_assignments_checked % 1000 == 0:
+            # Check for early termination less frequently to reduce communication overhead
+            # For small problems, check every 100 assignments; for larger ones, check every 1000
+            check_interval = min(1000, max(100, self.total_assignments // (self.size * 10)))
+            if self.local_assignments_checked % check_interval == 0:
                 if self._check_early_termination():
-                    self.log("Early termination signal received")
+                    self.log(f"[Rank {self.rank}] Early termination signal received")
                     break
 
-        # Gather results from all processes
+        # Gather results from all processes (this includes implicit synchronization)
         all_solutions = self.comm.allgather(local_solution)
         all_assignments_checked = self.comm.allgather(self.local_assignments_checked)
 
@@ -121,17 +148,56 @@ class MPIBruteForceSolver:
 
         return global_solution
 
+    def _generate_assignment_by_number(self, assignment_num: int, variables: List[str]) -> Dict[str, bool]:
+        """Generate assignment by converting number to binary representation"""
+        assignment = {}
+        for i, var in enumerate(variables):
+            # Check if the i-th bit is set in assignment_num
+            # Use MSB-first ordering for consistency
+            assignment[var] = bool((assignment_num >> (len(variables) - 1 - i)) & 1)
+        return assignment
+
+    def _verify_assignment_distribution(self, total_assignments: int, size: int) -> None:
+        """Verify that assignment distribution is correct (debugging function)"""
+        if self.rank == 0:
+            self.log("Verifying assignment distribution:")
+            
+            assignments_per_process = total_assignments // size
+            remainder = total_assignments % size
+            
+            total_covered = 0
+            for rank in range(size):
+                if rank < remainder:
+                    start_idx = rank * (assignments_per_process + 1)
+                    end_idx = start_idx + assignments_per_process + 1
+                else:
+                    start_idx = rank * assignments_per_process + remainder
+                    end_idx = start_idx + assignments_per_process
+                
+                count = end_idx - start_idx
+                total_covered += count
+                self.log(f"  Rank {rank}: assignments {start_idx}-{end_idx-1} ({count} assignments)")
+            
+            self.log(f"Total assignments covered: {total_covered}/{total_assignments}")
+            if total_covered != total_assignments:
+                self.log("ERROR: Assignment distribution is incorrect!")
+            else:
+                self.log("Assignment distribution verified successfully!")
+
     def _check_early_termination(self) -> bool:
-        """Check if any other process has found a solution"""
-        # Simple implementation: check for incoming messages
+        """Check if any other process has found a solution using non-blocking probe"""
         status = MPI.Status()
+        # Use non-blocking probe to check for early termination messages
         if self.comm.Iprobe(source=MPI.ANY_SOURCE, tag=999, status=status):
+            # Receive the message to clear it from the queue
+            self.comm.recv(source=status.Get_source(), tag=999)
             return True
         return False
 
-    def broadcast_solution(self, solution: Optional[Dict[str, bool]]) -> None:
-        """Broadcast solution to all processes to enable early termination"""
+    def _broadcast_solution(self, solution: Dict[str, bool]) -> None:
+        """Broadcast solution to all other processes for early termination"""
         if solution is not None:
+            # Send to all other processes
             for other_rank in range(self.size):
                 if other_rank != self.rank:
                     self.comm.isend(solution, dest=other_rank, tag=999)

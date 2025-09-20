@@ -20,7 +20,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0001704692840576172,
+      "time": 0.00026035308837890625,
       "solved": true,
       "solution": {
         "x1": false,
@@ -53,7 +53,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011682510375976562,
+      "time": 0.00017142295837402344,
       "solved": true,
       "solution": {
         "x1": false,
@@ -86,7 +86,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011801719665527344,
+      "time": 0.00015234947204589844,
       "solved": true,
       "solution": {
         "x1": false,
@@ -119,7 +119,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0005812644958496094,
+      "time": 0.0006916522979736328,
       "solved": true,
       "solution": {
         "x1": false,
@@ -152,7 +152,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00044608116149902344,
+      "time": 0.0013353824615478516,
       "solved": true,
       "solution": {
         "x1": false,
@@ -185,7 +185,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00033164024353027344,
+      "time": 0.0004050731658935547,
       "solved": true,
       "solution": {
         "x1": false,
@@ -218,7 +218,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0006871223449707031,
+      "time": 0.00035309791564941406,
       "solved": true,
       "solution": {
         "x1": false,
@@ -251,7 +251,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010371208190917969,
+      "time": 0.0007185935974121094,
       "solved": true,
       "solution": {
         "x1": false,
@@ -284,7 +284,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0005586147308349609,
+      "time": 0.0007584095001220703,
       "solved": true,
       "solution": {
         "x1": false,
@@ -317,7 +317,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0008311271667480469,
+      "time": 0.0005023479461669922,
       "solved": true,
       "solution": {
         "x1": false,
@@ -350,7 +350,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003409385681152344,
+      "time": 0.0003459453582763672,
       "solved": true,
       "solution": {
         "x1": false,
@@ -383,7 +383,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00017547607421875,
+      "time": 0.00024437904357910156,
       "solved": true,
       "solution": {
         "x1": false,
@@ -416,7 +416,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010251998901367188,
+      "time": 0.000240325927734375,
       "solved": true,
       "solution": {
         "x1": false,
@@ -449,7 +449,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00036907196044921875,
+      "time": 0.0014958381652832031,
       "solved": true,
       "solution": {
         "x1": false,
@@ -482,7 +482,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0015261173248291016,
+      "time": 0.0016391277313232422,
       "solved": true,
       "solution": {
         "x1": false,
@@ -515,7 +515,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00030493736267089844,
+      "time": 0.0002624988555908203,
       "solved": true,
       "solution": {
         "x1": false,
@@ -548,7 +548,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00020456314086914062,
+      "time": 0.0020873546600341797,
       "solved": true,
       "solution": {
         "x1": false,
@@ -581,7 +581,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003268718719482422,
+      "time": 0.0012006759643554688,
       "solved": true,
       "solution": {
         "x1": false,
@@ -614,7 +614,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00020170211791992188,
+      "time": 0.0037064552307128906,
       "solved": true,
       "solution": {
         "x1": false,
@@ -647,7 +647,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00019621849060058594,
+      "time": 0.0003867149353027344,
       "solved": true,
       "solution": {
         "x1": false,
@@ -680,7 +680,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00025463104248046875,
+      "time": 0.00030612945556640625,
       "solved": true,
       "solution": {
         "x1": false,
@@ -713,7 +713,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011658668518066406,
+      "time": 0.0002474784851074219,
       "solved": true,
       "solution": {
         "x1": false,
@@ -746,7 +746,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003616809844970703,
+      "time": 0.0002193450927734375,
       "solved": true,
       "solution": {
         "x1": false,
@@ -779,7 +779,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00013637542724609375,
+      "time": 0.00061798095703125,
       "solved": true,
       "solution": {
         "x1": false,
@@ -812,7 +812,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 9.822845458984375e-05,
+      "time": 0.0018498897552490234,
       "solved": true,
       "solution": {
         "x1": false,
@@ -845,7 +845,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010800361633300781,
+      "time": 0.001117706298828125,
       "solved": true,
       "solution": {
         "x1": false,
@@ -878,7 +878,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010418891906738281,
+      "time": 0.0005540847778320312,
       "solved": true,
       "solution": {
         "x1": false,
@@ -911,7 +911,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003237724304199219,
+      "time": 0.0005118846893310547,
       "solved": true,
       "solution": {
         "x1": false,
@@ -944,7 +944,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010776519775390625,
+      "time": 0.0003719329833984375,
       "solved": true,
       "solution": {
         "x1": false,
@@ -977,7 +977,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00010633468627929688,
+      "time": 0.0006248950958251953,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1010,7 +1010,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0005624294281005859,
+      "time": 0.000560760498046875,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1043,7 +1043,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0004298686981201172,
+      "time": 0.00023794174194335938,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1076,7 +1076,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002491474151611328,
+      "time": 0.00022125244140625,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1109,7 +1109,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00023436546325683594,
+      "time": 0.0002315044403076172,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1142,7 +1142,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00017189979553222656,
+      "time": 0.00041866302490234375,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1175,7 +1175,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00021386146545410156,
+      "time": 0.0004563331604003906,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1208,7 +1208,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002033710479736328,
+      "time": 0.0019996166229248047,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1241,7 +1241,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00016260147094726562,
+      "time": 0.0002911090850830078,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1274,7 +1274,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0006034374237060547,
+      "time": 0.0007205009460449219,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1307,7 +1307,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00022912025451660156,
+      "time": 0.0025336742401123047,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1340,7 +1340,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0001761913299560547,
+      "time": 0.002691507339477539,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1373,7 +1373,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.000179290771484375,
+      "time": 0.0008471012115478516,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1406,7 +1406,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0001857280731201172,
+      "time": 0.0018956661224365234,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1439,7 +1439,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00011110305786132812,
+      "time": 0.0003714561462402344,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1472,7 +1472,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002760887145996094,
+      "time": 0.0015575885772705078,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1505,7 +1505,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00021314620971679688,
+      "time": 0.0005190372467041016,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1538,7 +1538,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00028395652770996094,
+      "time": 0.0009779930114746094,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1571,7 +1571,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0002067089080810547,
+      "time": 0.0013225078582763672,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1604,7 +1604,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.0003497600555419922,
+      "time": 0.0009965896606445312,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1637,7 +1637,7 @@
     ],
     "len_formula": 3,
     "mpi_brute_force_solver": {
-      "time": 0.00022149085998535156,
+      "time": 0.0008001327514648438,
       "solved": true,
       "solution": {
         "x1": false,
@@ -1695,7 +1695,7 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00010561943054199219,
+      "time": 0.0006194114685058594,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
@@ -1749,7 +1749,7 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00011777877807617188,
+      "time": 0.0006210803985595703,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
@@ -1803,7 +1803,7 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00010824203491210938,
+      "time": 0.0021126270294189453,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
@@ -1857,7 +1857,7 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 0.00011587142944335938,
+      "time": 0.0004429817199707031,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,
@@ -1911,7 +1911,7 @@
     ],
     "len_formula": 8,
     "mpi_brute_force_solver": {
-      "time": 9.72747802734375e-05,
+      "time": 0.0005290508270263672,
       "solved": false,
       "solution": null,
       "assignments_checked": 8,

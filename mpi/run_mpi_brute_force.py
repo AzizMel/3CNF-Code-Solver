@@ -12,6 +12,9 @@ from datetime import datetime
 # Add the parent directory to the Python path to find the Solvers module
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
+
+# Change to parent directory to ensure correct imports
+os.chdir(parent_dir)
 sys.path.insert(0, parent_dir)
 
 from mpi_brute_force_solver import MPIBruteForceSolver

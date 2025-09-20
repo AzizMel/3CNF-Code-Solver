@@ -1,0 +1,1297 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-09-20T21:38:27.124801",
+    "total_processes_tested": 3,
+    "successful_runs": 0,
+    "failed_runs": 3,
+    "total_formulas": 55
+  },
+  "formula_results": {
+    "0": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "1": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "2": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "3": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "4": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "5": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "6": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "7": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "8": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "9": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "10": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "11": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "12": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "13": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "14": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "15": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "16": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "17": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "18": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "19": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "20": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "21": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "22": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "23": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "24": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "25": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "26": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "27": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "28": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "29": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "30": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "31": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "32": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "33": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "34": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "35": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "36": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "37": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "38": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "39": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "40": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "41": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "42": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "43": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "44": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "45": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "46": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "47": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "48": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "49": {
+      "formula_to_solve": [
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 3,
+      "mpi_results": {}
+    },
+    "50": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 8,
+      "mpi_results": {}
+    },
+    "51": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 8,
+      "mpi_results": {}
+    },
+    "52": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 8,
+      "mpi_results": {}
+    },
+    "53": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 8,
+      "mpi_results": {}
+    },
+    "54": {
+      "formula_to_solve": [
+        [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "x1",
+          "-x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "x2",
+          "-x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "x3"
+        ],
+        [
+          "-x1",
+          "-x2",
+          "-x3"
+        ]
+      ],
+      "len_formula": 8,
+      "mpi_results": {}
+    }
+  },
+  "performance_analysis": {},
+  "scaling_analysis": {
+    "process_counts": [],
+    "success_rates": {},
+    "solved_formulas_per_process": {}
+  }
+}

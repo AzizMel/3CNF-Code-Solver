@@ -293,7 +293,7 @@ def main():
     # Determine process counts to test
     # Test key process counts for comprehensive analysis
     process_counts = [
-        1, 2, 4, 6, 8, 10, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56
+        1, 2, 4, 
     ]
     
     print(f"Will test {len(process_counts)} different process counts: {process_counts}")
