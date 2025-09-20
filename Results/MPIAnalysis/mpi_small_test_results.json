@@ -1,0 +1,17 @@
+[
+  {
+    "processes": 1,
+    "success": false,
+    "error": "Traceback (most recent call last):\n  File \"/media/Learn/IKIU/Master/Done/Term 3/Algorithim Design/Project 3 (Final)/CNFCodes/mpi/run_mpi_brute_force.py\", line 17, in <module>\n    from mpi_brute_force_solver import MPIBruteForceSolver\n  File \"/media/Learn/IKIU/Master/Done/Term 3/Algorithim Design/Project 3 (Final)/CNFCodes/mpi/mpi_brute_force_solver.py\", line 7, in <module>\n    from mpi4py import MPI\nModuleNotFoundError: No module named 'mpi4py'\n"
+  },
+  {
+    "processes": 2,
+    "success": false,
+    "error": "Traceback (most recent call last):\n  File \"/media/Learn/IKIU/Master/Done/Term 3/Algorithim Design/Project 3 (Final)/CNFCodes/mpi/run_mpi_brute_force.py\", line 17, in <module>\nTraceback (most recent call last):\n  File \"/media/Learn/IKIU/Master/Done/Term 3/Algorithim Design/Project 3 (Final)/CNFCodes/mpi/run_mpi_brute_force.py\", line 17, in <module>\n    from mpi_brute_force_solver import MPIBruteForceSolver\n    from mpi_brute_force_solver import MPIBruteForceSolver\n  File \"/media/Learn/IKIU/Master/Done/Term 3/Algorithim Design/Project 3 (Final)/CNFCodes/mpi/mpi_brute_force_solver.py\", line 7, in <module>\n  File \"/media/Learn/IKIU/Master/Done/Term 3/Algorithim Design/Project 3 (Final)/CNFCodes/mpi/mpi_brute_force_solver.py\", line 7, in <module>\n    from mpi4py import MPI\n    from mpi4py import MPI\nModuleNotFoundError: No module named 'mpi4py'\nModuleNotFoundError: No module named 'mpi4py'\n--------------------------------------------------------------------------\nprterun detected that one or more processes exited with non-zero status,\nthus causing the job to be terminated. The first process to do so was:\n\n   Process name: [prterun-aziz-hp-80283@1,0]\n   Exit code:    1\n--------------------------------------------------------------------------\n"
+  },
+  {
+    "processes": 4,
+    "success": false,
+    "error": "--------------------------------------------------------------------------\nThere are not enough slots available in the system to satisfy the 4\nslots that were requested by the application:\n\n  /home/aziz/anaconda3/bin/python\n\nEither request fewer procs for your application, or make more slots\navailable for use.\n\nA \"slot\" is the PRRTE term for an allocatable unit where we can\nlaunch a process.  The number of slots available are defined by the\nenvironment in which PRRTE processes are run:\n\n  1. Hostfile, via \"slots=N\" clauses (N defaults to number of\n     processor cores if not provided)\n  2. The --host command line parameter, via a \":N\" suffix on the\n     hostname (N defaults to 1 if not provided)\n  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)\n  4. If none of a hostfile, the --host command line parameter, or an\n     RM is present, PRRTE defaults to the number of processor cores\n\nIn all the above cases, if you want PRRTE to default to the number\nof hardware threads instead of the number of processor cores, use the\n--use-hwthread-cpus option.\n\nAlternatively, you can use the --map-by :OVERSUBSCRIBE option to ignore the\nnumber of available slots when deciding the number of processes to\nlaunch.\n--------------------------------------------------------------------------\n\u0000"
+  }
+]

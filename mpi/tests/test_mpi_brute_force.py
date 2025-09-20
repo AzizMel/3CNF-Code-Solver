@@ -6,7 +6,14 @@ Test script for MPI brute force solver (works without MPI for basic testing)
 import sys
 import time
 import itertools
+import os
 from typing import List, Dict, Optional, Any
+
+# Add the parent directories to the Python path to find the Solvers module
+current_dir = os.path.dirname(os.path.abspath(__file__))
+mpi_dir = os.path.dirname(current_dir)
+parent_dir = os.path.dirname(mpi_dir)
+sys.path.insert(0, parent_dir)
 
 # Import the brute force solver
 from Solvers.brute_force_solver import BruteForceSolver

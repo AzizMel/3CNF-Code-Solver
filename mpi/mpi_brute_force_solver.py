@@ -1,14 +1,17 @@
-"""
-MPI-Based Parallel Brute Force CNF SAT Solver
-Specialized implementation for brute force search with MPI parallelization
-"""
-
 import sys
 import time
 import itertools
 import json
+import os
 from typing import List, Dict, Optional, Any
 from mpi4py import MPI
+import formulas_data
+# to run: mpiexec -n 2 ./venv/bin/python mpi/run_mpi_brute_force.py 
+
+# Add the parent directory to the Python path to find the Solvers module
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
 
 # Import the brute force solver
 from Solvers.brute_force_solver import BruteForceSolver
@@ -64,7 +67,8 @@ class MPIBruteForceSolver:
         self.log(f"Searching assignments {start_idx} to {end_idx-1}")
 
         # Create local solver
-        solver = BruteForceSolver(formula=formula, variables=variables)
+        solver = BruteForceSolver(formula=formula)
+        solver.variables = variables
 
         # Generate all possible assignments
         all_assignments = list(itertools.product([False, True], repeat=len(variables)))
@@ -132,7 +136,52 @@ class MPIBruteForceSolver:
                 if other_rank != self.rank:
                     self.comm.isend(solution, dest=other_rank, tag=999)
 
-    def benchmark_formulas(self, formulas_data: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def solve_single_formula(self, formula_id: int, formula: List[List[str]], variables: List[str]) -> Dict[str, Any]:
+        """Solve a single formula and return detailed results"""
+        self.comm.Barrier()  # Synchronize all processes
+        
+        if self.rank == 0:
+            self.log(f"Solving Formula {formula_id}")
+            self.log(f"Formula: {formula}")
+            self.log(f"Variables: {variables}")
+
+        # Solve the formula
+        solution = self.solve_parallel(formula, variables)
+
+        # Collect timing information
+        execution_time = (
+            self.end_time - self.start_time
+            if self.end_time and self.start_time
+            else 0
+        )
+        assignments_checked = sum(
+            self.comm.allgather(self.local_assignments_checked)
+        )
+
+        if self.rank == 0:
+            result = {
+                "formula_id": formula_id,
+                "formula_to_solve": formula,
+                "len_formula": len(formula),
+                "mpi_brute_force_solver": {
+                    "time": execution_time,
+                    "solved": solution is not None,
+                    "solution": solution,
+                    "assignments_checked": assignments_checked,
+                    "processes": self.size,
+                    "total_assignments": self.total_assignments,
+                }
+            }
+            
+            self.log(f"Result: {'SOLVED' if solution else 'UNSOLVABLE'}")
+            self.log(f"Time: {execution_time:.6f}s")
+            self.log(f"Assignments checked: {assignments_checked}/{self.total_assignments}")
+            
+            return result
+        
+        return None
+
+    def benchmark_formulas(self, formulas_data: Dict[int, List[List[str]]]) -> Dict[str, Any]:
         """Benchmark the MPI brute force solver on multiple formulas"""
 
         if self.rank == 0:
@@ -141,55 +190,24 @@ class MPIBruteForceSolver:
             )
             self.log("=" * 60)
 
-        all_results = []
+        all_results = {}
 
-        for i, formula_data in enumerate(formulas_data):
-            self.comm.Barrier()  # Synchronize all processes
+        for formula_id, formula in formulas_data.items():
+            # Extract variables from the formula
+            variables = set()
+            for clause in formula:
+                for literal in clause:
+                    var = literal.lstrip('-')
+                    variables.add(var)
+            variables = sorted(list(variables))
 
-            if self.rank == 0:
-                self.log(f"\nTesting Formula {i+1}/{len(formulas_data)}")
-                self.log(f"Formula: {formula_data['formula']}")
-                self.log(f"Variables: {formula_data['variables']}")
-
-            # Solve the formula
-            solution = self.solve_parallel(
-                formula_data["formula"], formula_data["variables"]
-            )
-
-            # Collect timing information
-            execution_time = (
-                self.end_time - self.start_time
-                if self.end_time and self.start_time
-                else 0
-            )
-            assignments_checked = sum(
-                self.comm.allgather(self.local_assignments_checked)
-            )
-
-            if self.rank == 0:
-                result = {
-                    "formula_id": i,
-                    "formula": formula_data["formula"],
-                    "variables": formula_data["variables"],
-                    "expected_solvable": formula_data.get("expected_solvable", True),
-                    "solution_found": solution is not None,
-                    "solution": solution,
-                    "execution_time": execution_time,
-                    "assignments_checked": assignments_checked,
-                    "processes": self.size,
-                    "total_assignments": self.total_assignments,
-                }
-                all_results.append(result)
-
-                self.log(f"Result: {'SOLVED' if solution else 'UNSOLVABLE'}")
-                self.log(f"Time: {execution_time:.6f}s")
-                self.log(
-                    f"Assignments checked: {assignments_checked}/{self.total_assignments}"
-                )
+            result = self.solve_single_formula(formula_id, formula, variables)
+            if result is not None:
+                all_results[str(formula_id)] = result
 
         return all_results
 
-    def run_performance_analysis(self, formulas_data: List[Dict[str, Any]]) -> None:
+    def run_performance_analysis(self) -> None:
         """Run comprehensive performance analysis"""
 
         if self.rank == 0:
@@ -199,11 +217,12 @@ class MPIBruteForceSolver:
             print("=" * 80)
 
         # Run benchmark
-        results = self.benchmark_formulas(formulas_data)
+        results = self.benchmark_formulas(formulas_data.formulas)
 
         if self.rank == 0:
-            # Save results
-            filename = f"mpi_brute_force_results_{self.size}proc.json"
+            # Save results to Results/MPIAnalysis folder
+            os.makedirs("Results/MPIAnalysis", exist_ok=True)
+            filename = f"Results/MPIAnalysis/mpi_brute_force_results_{self.size}proc.json"
             with open(filename, "w") as f:
                 json.dump(results, f, indent=2)
 
@@ -214,9 +233,9 @@ class MPIBruteForceSolver:
             print("PERFORMANCE SUMMARY")
             print("=" * 80)
 
-            total_time = sum(r["execution_time"] for r in results)
-            total_solved = sum(1 for r in results if r["solution_found"])
-            total_assignments = sum(r["assignments_checked"] for r in results)
+            total_time = sum(r["mpi_brute_force_solver"]["time"] for r in results.values())
+            total_solved = sum(1 for r in results.values() if r["mpi_brute_force_solver"]["solved"])
+            total_assignments = sum(r["mpi_brute_force_solver"]["assignments_checked"] for r in results.values())
 
             print(f"Total formulas tested: {len(results)}")
             print(f"Formulas solved: {total_solved}/{len(results)}")
@@ -227,48 +246,13 @@ class MPIBruteForceSolver:
 
             print("\nDetailed Results:")
             print("-" * 80)
-            for result in results:
-                status = "✓ SOLVED" if result["solution_found"] else "✗ UNSOLVABLE"
+            for formula_id, result in results.items():
+                status = "✓ SOLVED" if result["mpi_brute_force_solver"]["solved"] else "✗ UNSOLVABLE"
                 print(
-                    f"Formula {result['formula_id']+1:2d}: {status:12} | "
-                    f"Time: {result['execution_time']:8.6f}s | "
-                    f"Checked: {result['assignments_checked']:8,}/{result['total_assignments']:8,}"
+                    f"Formula {formula_id:2s}: {status:12} | "
+                    f"Time: {result['mpi_brute_force_solver']['time']:8.6f}s | "
+                    f"Checked: {result['mpi_brute_force_solver']['assignments_checked']:8,}/{result['mpi_brute_force_solver']['total_assignments']:8,}"
                 )
-
-
-def create_test_formulas() -> List[Dict[str, Any]]:
-    """Create test formulas for benchmarking"""
-    return [
-        {
-            "formula": [["x1", "x2", "x3"], ["-x1", "-x2", "-x3"]],
-            "variables": ["x1", "x2", "x3"],
-            "expected_solvable": True,
-        },
-        {
-            "formula": [["x1", "x2"], ["-x1", "-x2"], ["x1", "-x2"], ["-x1", "x2"]],
-            "variables": ["x1", "x2"],
-            "expected_solvable": False,
-        },
-        {
-            "formula": [["x1", "x2", "x3"], ["-x1", "x2", "x3"], ["x1", "-x2", "x3"]],
-            "variables": ["x1", "x2", "x3"],
-            "expected_solvable": True,
-        },
-        {
-            "formula": [["x1", "x2", "x3", "x4"], ["-x1", "-x2", "-x3", "-x4"]],
-            "variables": ["x1", "x2", "x3", "x4"],
-            "expected_solvable": True,
-        },
-        {
-            "formula": [
-                ["x1", "x2", "x3", "x4", "x5"],
-                ["-x1", "-x2", "-x3", "-x4", "-x5"],
-                ["x1", "x2", "x3", "x4", "x5"],
-            ],
-            "variables": ["x1", "x2", "x3", "x4", "x5"],
-            "expected_solvable": True,
-        },
-    ]
 
 
 def main():
@@ -276,12 +260,7 @@ def main():
 
     # Initialize MPI solver
     mpi_solver = MPIBruteForceSolver()
-
-    # Create test formulas
-    test_formulas = create_test_formulas()
-
-    # Run performance analysis
-    mpi_solver.run_performance_analysis(test_formulas)
+    mpi_solver.run_performance_analysis()
 
 
 if __name__ == "__main__":
